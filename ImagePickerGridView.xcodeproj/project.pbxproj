@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA53319A213B56A500E0175E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA533199213B56A500E0175E /* AppDelegate.swift */; };
+		BA53319C213B56A500E0175E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA53319B213B56A500E0175E /* ViewController.swift */; };
+		BA53319F213B56A500E0175E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA53319D213B56A500E0175E /* Main.storyboard */; };
+		BA5331A1213B56A900E0175E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5331A0213B56A900E0175E /* Assets.xcassets */; };
+		BA5331A4213B56A900E0175E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5331A2213B56A900E0175E /* LaunchScreen.storyboard */; };
+		BA5331AF213B56A900E0175E /* ImagePickerGridViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5331AE213B56A900E0175E /* ImagePickerGridViewTests.swift */; };
+		BA5331BA213B56A900E0175E /* ImagePickerGridViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5331B9213B56A900E0175E /* ImagePickerGridViewUITests.swift */; };
+		BA5331C8213B658900E0175E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5331C7213B658900E0175E /* CollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA5331AB213B56A900E0175E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA53318E213B56A500E0175E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA533195213B56A500E0175E;
+			remoteInfo = ImagePickerGridView;
+		};
+		BA5331B6213B56A900E0175E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA53318E213B56A500E0175E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA533195213B56A500E0175E;
+			remoteInfo = ImagePickerGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA533196213B56A500E0175E /* ImagePickerGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePickerGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA533199213B56A500E0175E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA53319B213B56A500E0175E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA53319E213B56A500E0175E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA5331A0213B56A900E0175E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA5331A3213B56A900E0175E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA5331A5213B56A900E0175E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5331AA213B56A900E0175E /* ImagePickerGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5331AE213B56A900E0175E /* ImagePickerGridViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGridViewTests.swift; sourceTree = "<group>"; };
+		BA5331B0213B56A900E0175E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5331B5213B56A900E0175E /* ImagePickerGridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerGridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5331B9213B56A900E0175E /* ImagePickerGridViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGridViewUITests.swift; sourceTree = "<group>"; };
+		BA5331BB213B56A900E0175E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5331C7213B658900E0175E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA533193213B56A500E0175E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5331A7213B56A900E0175E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5331B2213B56A900E0175E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA53318D213B56A500E0175E = {
+			isa = PBXGroup;
+			children = (
+				BA533198213B56A500E0175E /* ImagePickerGridView */,
+				BA5331AD213B56A900E0175E /* ImagePickerGridViewTests */,
+				BA5331B8213B56A900E0175E /* ImagePickerGridViewUITests */,
+				BA533197213B56A500E0175E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA533197213B56A500E0175E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA533196213B56A500E0175E /* ImagePickerGridView.app */,
+				BA5331AA213B56A900E0175E /* ImagePickerGridViewTests.xctest */,
+				BA5331B5213B56A900E0175E /* ImagePickerGridViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA533198213B56A500E0175E /* ImagePickerGridView */ = {
+			isa = PBXGroup;
+			children = (
+				BA533199213B56A500E0175E /* AppDelegate.swift */,
+				BA53319B213B56A500E0175E /* ViewController.swift */,
+				BA53319D213B56A500E0175E /* Main.storyboard */,
+				BA5331A0213B56A900E0175E /* Assets.xcassets */,
+				BA5331A2213B56A900E0175E /* LaunchScreen.storyboard */,
+				BA5331A5213B56A900E0175E /* Info.plist */,
+				BA5331C7213B658900E0175E /* CollectionViewController.swift */,
+			);
+			path = ImagePickerGridView;
+			sourceTree = "<group>";
+		};
+		BA5331AD213B56A900E0175E /* ImagePickerGridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA5331AE213B56A900E0175E /* ImagePickerGridViewTests.swift */,
+				BA5331B0213B56A900E0175E /* Info.plist */,
+			);
+			path = ImagePickerGridViewTests;
+			sourceTree = "<group>";
+		};
+		BA5331B8213B56A900E0175E /* ImagePickerGridViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA5331B9213B56A900E0175E /* ImagePickerGridViewUITests.swift */,
+				BA5331BB213B56A900E0175E /* Info.plist */,
+			);
+			path = ImagePickerGridViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA533195213B56A500E0175E /* ImagePickerGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5331BE213B56A900E0175E /* Build configuration list for PBXNativeTarget "ImagePickerGridView" */;
+			buildPhases = (
+				BA533192213B56A500E0175E /* Sources */,
+				BA533193213B56A500E0175E /* Frameworks */,
+				BA533194213B56A500E0175E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagePickerGridView;
+			productName = ImagePickerGridView;
+			productReference = BA533196213B56A500E0175E /* ImagePickerGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA5331A9213B56A900E0175E /* ImagePickerGridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5331C1213B56A900E0175E /* Build configuration list for PBXNativeTarget "ImagePickerGridViewTests" */;
+			buildPhases = (
+				BA5331A6213B56A900E0175E /* Sources */,
+				BA5331A7213B56A900E0175E /* Frameworks */,
+				BA5331A8213B56A900E0175E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5331AC213B56A900E0175E /* PBXTargetDependency */,
+			);
+			name = ImagePickerGridViewTests;
+			productName = ImagePickerGridViewTests;
+			productReference = BA5331AA213B56A900E0175E /* ImagePickerGridViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA5331B4213B56A900E0175E /* ImagePickerGridViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5331C4213B56A900E0175E /* Build configuration list for PBXNativeTarget "ImagePickerGridViewUITests" */;
+			buildPhases = (
+				BA5331B1213B56A900E0175E /* Sources */,
+				BA5331B2213B56A900E0175E /* Frameworks */,
+				BA5331B3213B56A900E0175E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5331B7213B56A900E0175E /* PBXTargetDependency */,
+			);
+			name = ImagePickerGridViewUITests;
+			productName = ImagePickerGridViewUITests;
+			productReference = BA5331B5213B56A900E0175E /* ImagePickerGridViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA53318E213B56A500E0175E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "OMER ABDUL MAROOF";
+				TargetAttributes = {
+					BA533195213B56A500E0175E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					BA5331A9213B56A900E0175E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BA533195213B56A500E0175E;
+					};
+					BA5331B4213B56A900E0175E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BA533195213B56A500E0175E;
+					};
+				};
+			};
+			buildConfigurationList = BA533191213B56A500E0175E /* Build configuration list for PBXProject "ImagePickerGridView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA53318D213B56A500E0175E;
+			productRefGroup = BA533197213B56A500E0175E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA533195213B56A500E0175E /* ImagePickerGridView */,
+				BA5331A9213B56A900E0175E /* ImagePickerGridViewTests */,
+				BA5331B4213B56A900E0175E /* ImagePickerGridViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA533194213B56A500E0175E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5331A4213B56A900E0175E /* LaunchScreen.storyboard in Resources */,
+				BA5331A1213B56A900E0175E /* Assets.xcassets in Resources */,
+				BA53319F213B56A500E0175E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5331A8213B56A900E0175E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5331B3213B56A900E0175E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA533192213B56A500E0175E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5331C8213B658900E0175E /* CollectionViewController.swift in Sources */,
+				BA53319C213B56A500E0175E /* ViewController.swift in Sources */,
+				BA53319A213B56A500E0175E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5331A6213B56A900E0175E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5331AF213B56A900E0175E /* ImagePickerGridViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5331B1213B56A900E0175E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5331BA213B56A900E0175E /* ImagePickerGridViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA5331AC213B56A900E0175E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA533195213B56A500E0175E /* ImagePickerGridView */;
+			targetProxy = BA5331AB213B56A900E0175E /* PBXContainerItemProxy */;
+		};
+		BA5331B7213B56A900E0175E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA533195213B56A500E0175E /* ImagePickerGridView */;
+			targetProxy = BA5331B6213B56A900E0175E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA53319D213B56A500E0175E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA53319E213B56A500E0175E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA5331A2213B56A900E0175E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5331A3213B56A900E0175E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA5331BC213B56A900E0175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA5331BD213B56A900E0175E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA5331BF213B56A900E0175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YD9E38LGAJ;
+				INFOPLIST_FILE = ImagePickerGridView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omer-m.ImagePickerGridView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA5331C0213B56A900E0175E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YD9E38LGAJ;
+				INFOPLIST_FILE = ImagePickerGridView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omer-m.ImagePickerGridView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA5331C2213B56A900E0175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImagePickerGridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omer-m.ImagePickerGridViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePickerGridView.app/ImagePickerGridView";
+			};
+			name = Debug;
+		};
+		BA5331C3213B56A900E0175E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImagePickerGridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omer-m.ImagePickerGridViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePickerGridView.app/ImagePickerGridView";
+			};
+			name = Release;
+		};
+		BA5331C5213B56A900E0175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImagePickerGridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omer-m.ImagePickerGridViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImagePickerGridView;
+			};
+			name = Debug;
+		};
+		BA5331C6213B56A900E0175E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImagePickerGridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omer-m.ImagePickerGridViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImagePickerGridView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA533191213B56A500E0175E /* Build configuration list for PBXProject "ImagePickerGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5331BC213B56A900E0175E /* Debug */,
+				BA5331BD213B56A900E0175E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5331BE213B56A900E0175E /* Build configuration list for PBXNativeTarget "ImagePickerGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5331BF213B56A900E0175E /* Debug */,
+				BA5331C0213B56A900E0175E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5331C1213B56A900E0175E /* Build configuration list for PBXNativeTarget "ImagePickerGridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5331C2213B56A900E0175E /* Debug */,
+				BA5331C3213B56A900E0175E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5331C4213B56A900E0175E /* Build configuration list for PBXNativeTarget "ImagePickerGridViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5331C5213B56A900E0175E /* Debug */,
+				BA5331C6213B56A900E0175E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA53318E213B56A500E0175E /* Project object */;
+}
